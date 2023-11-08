@@ -1,0 +1,18 @@
+! from list online https://pastebin.com/RUcyKvnN
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to your search/i))
+youtube.com##ytd-shelf-renderer:has-text(/People also watched/)
+youtube.com###contents > ytd-shelf-renderer:has-text(/For you/)
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Watch again/i))
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Searches related to/i))
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+youtube.com###secondary > .ytd-two-column-search-results-renderer
+youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Previously watched/i))
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Recently uploaded/i))
+! from comment section https://www.reddit.com/r/uBlockOrigin/comments/143mdqv/code_to_block_youtube_shorts_june_2023
+youtube.com##:xpath(//ytd-rich-item-renderer[descendant::span[contains(@aria-label,"Shorts")]])
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents;)
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5;)
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-grid-slim-media
+
